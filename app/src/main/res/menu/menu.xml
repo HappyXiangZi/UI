@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/item1"
+            android:title="@string/textsize">
+                <menu>
+                    <item
+                        android:id="@+id/small"
+                        android:title="@string/samll">
+                    </item>
+                    <item
+                        android:id="@+id/middle"
+                        android:title="@string/middle">
+                    </item>
+                    <item
+                        android:id="@+id/big"
+                        android:title="@string/big">
+                    </item>
+                </menu>
+        </item>
+        <item android:id="@+id/item2"
+            android:title="@string/plainmenu">
+        </item>
+        <item android:id="@+id/item3"
+            android:title="@string/fontcolor">
+            <menu>
+                <item
+                    android:title="@string/red"
+                    android:id="@+id/red">
+
+                </item>
+                <item android:title="@string/black"
+                    android:id="@+id/black">
+
+                </item>
+            </menu>
+        </item>
+</menu>
